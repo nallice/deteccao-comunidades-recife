@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Mobilidade Recife</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+.background {
+  fill: #eee;
+}
+
+line {
+  stroke: #fff;
+}
+
+text.active {
+  fill: red;
+}
+
+div#map {
+  position: absolute; 
+  top: 300px;
+  bottom: 200px; 
+  left: 1200px;
+  right: 200px;
+  width: 800px;
+  height: 700px;
+}
+
+div.viz {
+  display: flex;
+}
+
+div#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+</style>
+<!-- <script src="d3-v2-min.js" charset="utf-8"></script> -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+ integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+ crossorigin=""></script>
+<body>
+<header>
+</header>
+
+<div id="title"><h1>Visualização de comunidades em fluxos de Origem-Destino na cidade 
+  do Recife
+  </h1>
+</div>
+
+<div class="viz">
+<div>
+  <script type='module' src='./matrix.js'></script>
+</div>
+<div id="map">
+  <script type='module' src='./communitymap.js'></script>
+</div></div>
+<footer>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "title": "Visualização de comunidades em fluxos de Origem-Destino na cidade do Recife",
+    "links":[
+    {"a":"LINK DO GITHUB DO PROJETO", "text":"Github"}, #######Caso não houver github, omitir essa linha
+    ],
+    "authors":[
+    { "name":"NOME DO AUTOR", "email":"LOGIN@cin.ufpe.br"},
+    { "name":"NOME DO AUTOR 2", "email":"LOGIN2@cin.ufpe.br"} #######Caso não houver segundo autor, omitir essa linha e a vírgula separadora
+    ],
+    "teaser":"2020_2/<NOME DO ARQUIVO DO TEASER>"
+    }
